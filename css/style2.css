@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url('../pics/2bg-body.gif') green repeat center center fixed;
+	margin: 0;
+	font-family: 'Indie Flower', cursive;
+}
+
+.box {
+	background-color:white;
+	max-width: 600px;
+	width: 90%;
+	margin: 40px auto;
+	box-shadow: 0 0 30px rgba(0,0,0, 0.7);
+}
+
+.box .header-image {
+	background: url(../pics/2image.jpg) top center;
+	height: 200px;
+}
+
+.box .box-content {
+	padding: 20px;
+}
+
+.box .box-content h2 {
+	margin: 0;
+	color: rgb(7, 211, 150);
+}
+
+.box .box-content p{
+	color: gray;
+}
+
+.box .box-content .details {
+	margin: 16px 0 0 0;
+}
+
+.box .box-content .details a{
+	background:rgba(211,211,211, 0.6);
+	color: rgb(0, 0, 0);
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.box.box-2 .header-image {
+	background: url(../pics/2image2.jpg) top center;
+}
+

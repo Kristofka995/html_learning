@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../fonts/fontello.eot?13208113');
+    src: url('../fonts/fontello.eot?13208113#iefix') format('embedded-opentype'),
+         url('../fonts/fontello.woff2?13208113') format('woff2'),
+         url('../fonts/fontello.woff?13208113') format('woff'),
+         url('../fonts/fontello.ttf?13208113') format('truetype'),
+         url('../fonts/fontello.svg?13208113#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+   
+   [class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+      display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 1em;
+    text-align: center;
+    margin-right: 10px;
+   }
+   
+  .icon-help:before { content: '\e800'; } /* '' */
+  .icon-user:before { content: '\e801'; } /* '' */
+  .icon-home:before { content: '\e802'; } /* '' */
+  .icon-mail:before { content: '\f0e0'; } /* '' */
+  .icon-bell:before { content: '\f0f3'; } /* '' */
+
+  *{
+    box-sizing: border-box;
+  }
+
+  html{
+    height: 100%;
+  }
+
+  body{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    height: 100%;
+    background: #f4f4f4;
+  }
+
+.wrapper{
+    display: flex;
+    height: 100%;
+}
+
+  nav {
+      flex-basis: 230px;
+      background: #2d3744;
+  }
+
+  nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+
+  nav a {
+      text-decoration: none;
+      color: #839bb5;
+      display: block;
+      padding: 10px 20px;
+      /*
+      transition-property: background;
+      transition-duration: 0.3s;
+      */
+      transition: background, 0.3s, color, 0.3s
+  }
+
+  nav a:hover{
+    background:#02d098;
+    color: white;
+  }
